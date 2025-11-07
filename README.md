@@ -1,4 +1,6 @@
 # 🧹 Data Cleaning Project – Club Member Dataset (PostgreSQL)
+(Note - This project uses a publicly available dataset originally published by [iweld](https://github.com/iweld/data_cleaning). All SQL cleaning logic and documentation were developed independently.)
+
 
 ## 📌 Objective
 Design and implement a structured SQL-based data cleaning pipeline using PostgreSQL to transform raw club member data into a validated, analysis-ready format.
@@ -29,7 +31,6 @@ Raw member data often contains inconsistencies such as extra spaces, invalid cha
 ## 📂 Repository Highlights
 - `data_cleaning.sql`: SQL script containing all transformation steps
 - `README.md`: Project documentation and summary
-- `before_after.xlsx`: (Optional) Comparison of raw vs cleaned data
 
 ## 🧠 Skills Demonstrated
 - SQL data profiling and transformation
