@@ -30,6 +30,7 @@ Raw member data often contains inconsistencies such as extra spaces, invalid cha
 
 ## Repository Highlights
 - `data_cleaning.sql`: SQL script containing all transformation steps
+- ![Screenshot Name](Club_member_info_Project.xlsx) - Output file
 - `README.md`: Project documentation and summary
 
 ## Skills Demonstrated
