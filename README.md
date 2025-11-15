@@ -84,19 +84,7 @@ SELECT
 FROM club_member_info;
 ```
 
-## 📋 Sample Output Data
-
-### Cleaned Data Sample
-
-Below is a sample of the cleaned output data showing the transformation results:
-
-| Cleaned Name | Age | Marital Status | Email | Phone | City | State | Job Title | Cleaned Date |
-|--------------|-----|----------------|-------|-------|------|-------|-----------|-------------|
-| arda allam | 36 | Married | aallam64nps.gov | 415-797-9281 | San Rafael | California | human resources assistant i | 2012-01-10 |
-| aeriell angelini | 32 | Married | aangeliniluwhitehouse.gov | 806-508-7374 | Amarillo | Texas | database administrator i | 2013-07-10 |
-| aurore averill | 28 | Married | aaverill5itheglobeandmail.com | 713-330-3502 | Houston | Texas | account coordinator | 2019-05-11 |
-| annemarie balsom | 52 | Divorced | abalsomnywired.com | 718-247-6744 | Jamaica | New York | design engineer | 2014-03-06 |
-| alicea bamell | 52 | Married | abamellpcsquidoo.com | 850-167-7028 | Tallahassee | Florida | help desk technician | 2021-09-14 |
+----
 
 ### Key Transformations Applied:
 
@@ -119,3 +107,7 @@ PostgreSQL_Data_Cleaning_Project/
 ├── data_cleaning.sql             # SQL cleaning script
 └── Club_member_info_Project.xlsx # Sample dataset (raw + cleaned)
 ```
+
+---
+
+> © 2025 Nidhi Sree. This project is for educational and professional portfolio purposes. All examples use mock or publicly available data.
