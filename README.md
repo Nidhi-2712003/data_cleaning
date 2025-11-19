@@ -5,7 +5,7 @@
 ## Objective
 Design and implement a structured SQL-based data cleaning pipeline using PostgreSQL to transform raw club member data into a validated, analysis-ready format.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - PostgreSQL (pgAdmin 4)
 - SQL string, regex, and conditional functions
 - Optional: Excel (for raw vs cleaned data comparison)
@@ -14,14 +14,14 @@ Design and implement a structured SQL-based data cleaning pipeline using Postgre
 Raw member data often contains inconsistencies such as extra spaces, invalid characters, null values, and formatting issues. These errors can distort analysis and reporting. This project focuses on cleaning and standardizing such data using SQL transformations.
 
 ## Cleaning Logic
-- ✅ Dropped existing tables if present to avoid duplication
-- ✅ Created structured tables with defined columns and primary keys
-- ✅ Trimmed whitespace and converted text to lowercase
-- ✅ Removed special characters using regex
-- ✅ Handled null and blank values with conditional logic
-- ✅ Normalized categorical fields like marital status
-- ✅ Standardized formats for age, email, and phone numbers
-- ✅ Split address fields and corrected date anomalies
+- Dropped existing tables if present to avoid duplication
+- Created structured tables with defined columns and primary keys
+- Trimmed whitespace and converted text to lowercase
+- Removed special characters using regex
+- Handled null and blank values with conditional logic
+- Normalized categorical fields like marital status
+- Standardized formats for age, email, and phone numbers
+- Split address fields and corrected date anomalies
 
 ## Outcome
 - Produced a clean, validated dataset ready for downstream processing
@@ -39,7 +39,7 @@ Raw member data often contains inconsistencies such as extra spaces, invalid cha
 - ETL pipeline design for relational databases
 
 
-## 📊 SQL Data Cleaning Queries
+## SQL Data Cleaning Queries
 
 ### Complete Data Cleaning Query
 
@@ -99,7 +99,7 @@ FROM club_member_info;
 
 ---
 
-## 💾 Repository Structure
+## Repository Structure
 
 ```
 PostgreSQL_Data_Cleaning_Project/
